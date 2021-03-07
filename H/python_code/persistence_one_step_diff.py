@@ -77,5 +77,5 @@ ts_diff_train = difference(train)
 ts_diff_test = difference(test)
 
 
-persistence_one_step_diff(ts_diff_train, ts_diff_test, test)
+persistence_one_step_diff(ts_diff_train, ts_diff_test, test, plot_result=True)
 
